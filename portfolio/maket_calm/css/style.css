@@ -1,0 +1,288 @@
+/*IMPORT*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900,100);
+
+/*GENERAL*/
+.col-md-3,.col-lg-3,.col-sm-3{
+	margin: 0;
+	padding: 0;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #fff;
+	font-family: "Lato";
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+.container-1170 {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+}
+.f_r{
+	float: right;
+}
+.f_l{
+	float: left;
+}
+/*ICONS*/
+.search_ic{
+	background: url(../img/search_ic.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: relative;
+	top: 3px;
+	margin-left: 29px;
+}
+[class*="ic_soc_"]{
+	background: url(../img/socio_ic.png) no-repeat;
+}
+.ic_soc_tw{
+	width: 22px;
+	height: 15px;
+	display: block;
+	background-position: 0 0;
+	position: relative;
+	top: 11px;
+	left: 9px;
+}
+.ic_soc_fb{
+	background-position: -22px 0;
+	width: 11px;
+	height: 23px;
+	display: block;
+	position: relative;
+	top: 7px;
+	left: 15px;
+}
+.ic_soc_pl{
+	width: 16px;
+	height: 16px;
+	display: block;
+	background-position: -33px 0;
+	position: relative;
+	left: 14px;
+	top: 11px;
+}
+.ic_soc_gp{
+	background-position: -49px 0;
+	display: block;
+	left: 14px;
+	top: 11px;
+	width: 16px;
+	height: 16px;
+	position: relative;
+}
+.ic_soc_lf {
+	background-position: -65px 0;
+	display: block;
+	left: 14px;
+	top: 11px;
+	width: 15px;
+	height: 15px;
+	position: relative;
+}
+
+/*STYLE*/
+header{
+	border-top: 7px solid #34495e;
+	padding-top: 27px;
+	height: 87px;
+}
+header .logo{
+	position: relative;
+	top: -4px;
+}
+header .logo_name{
+	display: block;
+	height: 27px;
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 27px;
+}
+header .logo_1{
+	color: #34495e;
+}
+header .logo_2{
+	color: #1abc9c;
+}
+header .logo_3{
+	color: #bdc3c7;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	position: relative;
+	top: 10px;
+	margin-left: 12px;
+}
+.h_menu li{
+	display: inline-block;
+	/* Text style for "ABOUT" */
+	position: relative;
+	top: -8px;
+	margin-right: 2px;
+}
+.h_menu li:last-child{
+	margin: 0;
+}
+.h_menu li a{
+	color: #bdc3c7;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 10px 16px 8px 16px;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+.h_menu li a:hover{
+	color: #fff;
+	background: #1abc9c;
+}
+.h_menu li a:focus{
+	background: #34495e;
+	padding-bottom: 33px;
+	border-radius: 2px 2px 0 0;
+	margin-bottom: -8px;
+}
+.dropdown-menu{
+	width: 175px;
+	position: absolute;
+	left: 159px;
+	box-shadow: 0 !important;
+	-webkit-box-shadow: 0 !important;
+	margin: 0;
+	border-radius: 0 0 2px 2px;
+	background: #34495e;
+	border: 0;
+	padding: 19px 0;
+
+}
+.dropdown-menu li a{
+	text-transform: none !important;
+	padding: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dropdown-menu li{
+	padding: 10px 14px;
+}
+.dropdown-menu li:last-child{
+	padding: 10px 14px 0;
+}
+.dropdown-menu li:hover{
+	color: #fff;
+	background: #1abc9c;
+}
+.dropdown-menu li:hover > a{
+	color: #fff;
+	background: #1abc9c;
+}
+.dropdown-menu li{
+	display: block;
+
+}
+.after-header {
+	height: 209px;
+}
+.tag-line {
+	padding-top: 83px;
+	color: #bdc3c7;
+	font-weight: 400;
+}
+.tag-line .tag-header {
+	margin-top: 4px;
+	font-size: 22px;
+	margin-bottom: 12px;
+}
+.tag-line .tag-desc {
+	font-size: 15px;
+}
+.socio-text {
+	color: #bdc3c7;
+	font-size: 19px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.socio-icons li{
+	margin-right: 8px;
+}
+.socio-icons li:last-child{
+	margin: 0;
+}
+.socio-icons li a{
+	width: 42px;
+	height: 38px;
+	display: block;
+	border-radius: 2px;
+}
+
+.soc_tw {
+	background: #00acee;
+}
+.soc_fb{
+	background: #3b5998;
+}
+.soc_pl{
+	background: #ea4c89;
+}
+.soc_gp{
+	background: #db4a39;
+}
+.soc_lf{
+	background: #598728;
+}
+.main-content {
+	background: #34495e;
+	padding: 40px 0 75px 0;
+}
+.main-content .filter{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.filter a,.filter span{
+	color: #ecf0f1;
+	font-size: 13px;
+	font-weight: 700;
+}
+.filter a{
+	margin: 0 10px;
+}
+.filter a:hover{
+	text-decoration: underline;
+}
+.list {
+	height: auto;
+	position: relative;
+	padding: 0;
+}
+.list-col{
+	width: 270px;
+	margin-right: 30px;
+}
+.list-col:last-child{
+	margin: 0;
+}
+.list-item {
+	height: 270px;
+}
+.overlay{
+	width: 270px;
+	height: 180px;
+	position: absolute;
+	top: 0;
+	display: block;
+	text-align: center;
+}

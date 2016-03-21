@@ -1,0 +1,698 @@
+li{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+
+.container-940 {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+.row{
+	width: 940px;
+	position: absolute;
+}
+.container-fluid.main{
+	background-color: #f7f7f7;
+}
+/*FONTS*/
+@font-face {
+    font-family: 'LLLogo';
+    src: url('../fonts/Nexa Bold.otf');
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa Slab Regular.otf');
+}
+@font-face {
+	font-family: 'Proxima';
+	src: url('../fonts/Proxima Nova Regular.otf');
+}
+/*ICONS*/
+[class*="ic-soc-"]{
+	background: url(../img/ic-soc.png) no-repeat;
+	height: 40px;
+	width: 40px;
+	display: block;
+}
+.ic-soc-tw{
+	background-position: 0 0;
+}
+.ic-soc-fb{
+	background-position: -50px 0;
+}
+.ic-soc-pt{
+	background-position: -100px 0;
+}
+.ic-soc-gp{
+	background-position: -150px 0;
+}
+.ic-soc-tw:hover{
+	background-position: 0 -42px;
+}
+.ic-soc-fb:hover{
+	background-position: -50px -42px;
+}
+.ic-soc-pt:hover{
+	background-position: -100px -42px;
+}
+.ic-soc-gp:hover{
+	background-position: -150px -42px;
+}
+.ic-tw {
+	background: url(../img/ic-tw.png) no-repeat;
+	width: 18px;
+	height: 15px;
+	display: block;
+	float: left;
+	position: relative;
+	top: 4px;
+}
+.ic-ni-rm {
+	background: url(../img/ic-ni-rm.png) no-repeat;
+	height: 23px;
+	width: 23px;
+	display: block;
+	float: left;
+	margin-right: 8px;
+}
+.ic-ni-divider{
+	background: url(../img/ic-ni-divider.png);
+	width: 5px;
+	height: 5px;
+	display: block;
+	position: relative;
+	top: 65%;
+	margin: 0 16px 0 16px;
+}
+.ic-q-c {
+	background: url(../img/q-close.png) no-repeat;
+	width: 46px;
+	height: 46px;
+	display: block;
+	position: relative;
+	left: 100%;
+	margin-left: -46px;
+	top: -66px;
+	margin-top: 0px;
+}
+.ic-q-o {
+	background: url(../img/q-open.png);
+	width: 46px;
+	height: 46px;
+	display: block;
+	position: relative;
+	top: 54px;
+	margin-top: 0px;
+	
+}
+.ic-chevron {
+	background: url(../img/ic-chevron.png);
+	height: 16px;
+	width: 12px;
+	display: block;
+	float: right;
+	position: relative;
+	margin: 4px 30px 0 0;
+}
+.ic-chevron#shop{
+	top: -2px;
+	left: 7px;
+}
+.ic-sb{
+	background: url(../img/ic-sb.png) no-repeat;
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 100%;
+	margin-left: -47px;
+	top: 255px;
+}
+.ic-logo{
+	background: url(../img/ic-logo.png) no-repeat;
+	width: 34px;
+	height: 33px;
+	left: 0;
+	position: absolute;
+}
+.ic-home{
+	background: url(../img/ic-home.png) no-repeat;
+	width: 14px;
+	height: 12px;
+	top: 11px;
+	position: relative;
+	
+	display: block;
+}
+.ic-pointer{
+	background: url(../img/ic-pointer.png) no-repeat;
+	width: 10px;
+	height: 10px;
+	float: right;
+	left: -50%;
+	top: 25px;;
+	position: relative;
+	display: block;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+.ic-eye{
+	background: url(../img/ic-eye.png);
+	width: 22px;
+	height: 12px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+.ic-cloud{
+	background: url(../img/ic-cloud.png);
+	width: 14px;
+	height: 12px;
+	display: block;
+	margin-right: 5px;
+	float:left;
+	position: relative;
+	top: 3px;
+}
+.ic-dl{
+	background: url(../img/ic-dl.png);
+	width: 14px;
+	height: 12px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+/*PAGE STYLE*/
+.home {
+	position: relative;
+	top: 21px !important;
+	left: -2px !important;
+	width: 10px;
+	height: 10px;
+
+}
+
+/*HEADER*/
+.header{
+ 	padding: 30px 0 0 0;
+	height: 146px;
+	background: #fff;
+	
+}
+.p-name {
+	position: relative;
+	text-transform: uppercase;
+	width: 125px;
+	height: 19px;
+	font-family: 'LLLogo';
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 41px;
+	text-transform: uppercase;
+	top: -3px;
+	margin: 0 0 0 31px;
+}
+.lime {
+	color: #86c840;
+}
+.light {
+	color: #222;
+}
+.h-menu {
+	position: absolute;
+	top: 1px;
+	padding: 0px 0px 0 0;
+	margin: 0px;
+	width: 556px;
+	float: right;
+	left: 4px;
+}
+
+.h-menu-item{
+	display: inline-block;
+	margin: 0 41px 0 0;
+	
+}
+.h-menu-item a{
+	text-decoration: none;
+	font-family: 'Nexa';
+	color: #222;
+	font-weight: 700;
+	
+}
+.h-menu-item:hover .ic-pointer {
+	visibility: visible;
+}
+.h-menu>li:last-child{
+	margin: 0;
+	padding: 0 -5px 0 0;
+}
+/*BODY*/
+.jumbo{
+	margin: 80px 0 80px 0px;
+	padding: 0;
+}
+h2{
+	color: #222;
+	font-family: "Nexa";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	margin: 0 0 30px 0;
+}
+.jumbo-text {
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 0 0 50px 0;
+}
+.signup-box-text {
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0 0 0 3px;
+}
+.email-box {
+	/* Text style for "Email address." */
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 400;
+	width: 251px;
+	height: 37px;
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 0 0 0 15px;
+	margin-right: 5px;
+}
+.item.col-md-4{
+	position: relative;
+}
+.btn-sign-up:hover {
+	color: white;
+}
+.btn-sign-up {
+	/* Text style for "Sign Up" */
+/* Style for "Button" */
+	width: 105px;
+	height: 37px;
+	background-color: #86c840 !important;
+	border-radius: 2px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: 'Proxima';
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: relative;
+	border: 0;
+}
+
+.suggestion-header {
+	border-left: 6px solid #86c840;
+	padding: 2px 0 3px 25px;
+	margin: 79px 0 54px 0;
+	height: 59px;
+}
+.sugg-header {
+	margin-bottom: -5px;
+	letter-spacing: -1px;
+}
+.sugg-header-text {
+	/* Text style for "Download Till" */
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.2px;
+
+}
+.grid-{
+	height: 688px
+}
+.grid- ul{
+	padding: 0;
+}
+.grid- ul li{
+	width: 300px;
+}
+[class*="row-"]{
+	margin: 0;
+}
+[class*="row-"] li{
+	display: inline-block;
+	padding: 0 0 50px 0;
+}
+.grid-item-image{
+	/* Style for "Image Box" */
+	width: 300px;
+	height: 225px;
+	border-radius: 3px;
+	margin: 0 0px 20px 0;
+}
+
+li.col-md-4{
+	margin: 0 20px 0 0;
+}
+
+[class*="row-"] li:last-child {
+	margin: 0;
+}
+.hover-pic {
+	position: absolute;
+	left: 5px;
+	top: 180px;
+	border-radius: 0 0 3px 3px;
+	padding: 13px 10px 10px 10px;
+	background: rgba(34,34,34,0.85);
+	min-height: 40px;
+	min-width: 290px;
+	color: white;
+	font-family: 'Proxima';
+	font-size: 12px;
+	font-weight: 600;
+	visibility: hidden;
+}
+.hover-pic .hp-date{
+	float: left;
+}
+.hover-pic .hp-count{
+	float: right;
+}
+[class*="row-"] .item:hover .hover-pic {
+	visibility: visible;
+}
+.hp-numb {
+	float: left;
+	margin-right: 10px;
+}
+.hp-numb:last-child{
+	margin-right: 10px;
+}
+.sugg-name {
+	/* Text style for "Meteocons" */
+	color: #222;
+	font-family: 'Nexa';
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 0px 15px;
+	padding: 0;
+	margin-bottom: -3px;
+}
+.sugg-ct {
+	/* Text style for "Icons, Weather" */
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 0 15px;
+}
+.btn-mf {
+	background: #86c840;
+	/* Text style for "More Freebies" */
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	width: 200px;
+	height: 40px;
+	left: 50%;
+	position: absolute;
+	margin: 0 0 0px -100px;
+	text-align: left;
+	padding: 9px 0 0 30px;
+}
+.btn-mf:hover{
+	color:white;
+}
+.btn-mf-div {
+	height: 120px;
+	
+}
+.quote-text {
+	
+}
+.quote {
+	height: 150px;
+	padding: 0 0 45px 0;
+	text-align: center;
+	font-family: 'Proxima';
+	font-size: 24px;
+	color: #111;
+	opacity: 0.9;
+	font-weight: 300;
+}
+.news-header {
+	border-left: 6px solid #86c840;
+	padding: 2px 0 3px 25px;
+	margin: 85px 0 80px 0;
+	height: 59px;
+}
+.n-header {
+	margin-bottom: -5px;
+	letter-spacing: -1px;
+	
+}
+ul.news li{
+	display: ;
+}
+.n-header-text {
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.2px;
+	
+
+}
+.news-item {
+	margin-bottom: 85px;
+	height: 182px;
+}
+ul.news{
+	padding: 0;
+	
+}
+.ni-img{
+	position: relative;
+	padding: 0 40px 0 0;
+	width: 31%;
+	
+}
+.ni-d {
+	float: right;
+	width: 69%;
+	height: 182px;
+	padding: 0;
+	font-family: 'Proxima';
+}
+.ni-d .ni-header {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	/* Text style for "We Are Too Add" */
+	color: #111;
+	font-family: 'Nexa';
+	font-size: 28px;
+	font-weight: 700;
+	
+}
+.ni-rm a{
+	/* Text style for "Read More" */
+	color: #222;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.ni-rm a:hover,.ni-d .ni-header:hover {
+	color: #86c840;
+}
+.ni-rm a:hover .ic-ni-rm {
+	background-position: 0 -24px;
+}
+.ni-gen {
+	/* Text style for "Miko Ivan" */
+	height: 10px;
+	color: #aaa;
+	font-family: 'Proxima';
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.ni-gen span,.ni-gen i,.ni-descr{
+	float: left;
+}
+.ni-descr {
+	height: 74px;
+	/* Text style for "In the last st" */
+	color: #222;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 400;
+}
+.news-div {
+	margin-bottom: 85px;
+}
+.container-fluid.pre-footer {
+	background: #222;
+	color: white;
+	height: 307px;
+	padding-top: 50px;
+}
+.shop{
+	padding: 0;	
+}
+.shop-header {
+	/* Text style for "Visit Our Shop" */
+	color: white;
+	font-family: 'Nexa';
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 18px;
+}
+.shop content{
+	float: left;
+
+}
+.shop-descr {
+	/* Text style for "Grab some of o" */
+	color: #eee;
+	font-family: 'Proxima';
+	font-size: 16px;
+	font-weight: 400;
+	height: 110px;
+	opacity: 0.8;
+}
+.shop img{
+	float: left;
+	margin-right: 30px;
+}
+.shop-btn {
+	width: 141px;
+	height: 30px;
+	background: #86c840;
+	border-radius: 2px;
+	float: left;
+	padding: 5px 0 0 25px;
+	
+	/*TEXT*/
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: 'Proxima';
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.shop-btn:hover {
+	color: white;
+}
+.tw-header {
+	color: white;
+	font-family: 'Nexa';
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 18px;
+}
+.tw ul{
+	padding: 0;
+}
+.tw-content {
+	position: relative;
+	padding-left: 25px;
+}
+.tw-item {
+	padding-bottom: 12px;
+}
+.tw-text,.tw-tag,.tw-time{
+	color: #eee;
+	opacity: 0.8;
+	font-family: 'Proxima';
+}
+.tw-text{
+	/* Text style for "Confucius: Lif" */
+	font-size: 16px;
+	font-weight: 400;
+}
+.tw-tag {
+	font-size: 16px;
+	font-weight: 600;
+}
+.tw-time {
+	font-size: 12px;
+	font-weight: 400;
+}
+.tweets {
+	padding-right: 0px;
+}
+.tw {
+	padding: 0 0 0 30px;
+	width: 470px;
+}
+.tw-icon {
+	float: left;
+}
+.f-menu {
+	/* Text style for "About" */
+
+	padding: 0;
+	margin: 0;
+}
+.f-menu-item {
+	display: inline;
+	margin-right: 30px;
+}
+.f-menu-item:last-child {
+	margin-right: 0px;
+}
+footer .col-md-4{
+	padding: 0;
+}
+footer, footer a{
+	color: #555;
+	font-family: 'Proxima';
+	font-size: 14px;
+	font-weight: 600;
+}
+.f-menu-item:hover a{
+	color: #555;
+}
+.f-menu-item:focus a{
+	color: #555;
+}
+footer{
+	height: 110px;
+	padding-top: 50px;
+}
+footer .copy{
+	float: right;
+}
+.soc-div {
+	text-align: center;
+	padding: 0;
+	margin-top: -10px;
+}
+.soc-item {
+	display: inline-block;
+}
+.soc-block {
+	margin: 0;
+	padding: 0;
+}

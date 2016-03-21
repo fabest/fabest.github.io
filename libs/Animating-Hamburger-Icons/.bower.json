@@ -1,0 +1,14 @@
+{
+  "name": "Animating-Hamburger-Icons",
+  "homepage": "https://github.com/callmenick/Animating-Hamburger-Icons",
+  "_release": "adb4a70d1d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "adb4a70d1d977b3df3634e81738525fc6d7baa14"
+  },
+  "_source": "git://github.com/callmenick/Animating-Hamburger-Icons.git",
+  "_target": "*",
+  "_originalSource": "Animating-Hamburger-Icons",
+  "_direct": true
+}
